@@ -11,9 +11,7 @@ const Home = () => {
           <Row className="align-items-center">
             <Col className='d-flex flex-column align-items-center justify-content-center vh-75'>
             <h1>
-              Hi, Welcome to My Portfolio..
-            <br />
-              This is
+              Hello, This is
             <br/>
             <TypeAnimation
               sequence={[
@@ -30,7 +28,7 @@ const Home = () => {
               </Button>
             </Col>
             <Col className='d-flex justify-content-center'>
-              <img alt="profile-pic" src="profile-pic.png" className='vh-25'/>
+              <img alt="profile-pic" src="profile-pic.png" style={{width: '25rem'}}/>
             </Col>
           </Row>
         
