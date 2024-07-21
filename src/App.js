@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import NavigationBar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
+import FloatingButton from './components/FloatingBtn';
+import { ThemeProvider } from 'react-bootstrap';
 
-function App() {
+
+const theme = {
+  colors: {
+    primary: '#0070f3',
+    bg: '#fff',
+    text: '#333',
+    grey: '#aaa',
+  },
+  fontSize: '16px',
+};
+
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className='bg-app'>
+        <NavigationBar />
+        <Home />
+        <About />
+        <Skills />
+        <Contact />
+        <FloatingButton />
+      </div>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
