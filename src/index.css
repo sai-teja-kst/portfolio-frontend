@@ -4,14 +4,13 @@ html {
 
 .bg-app {
   margin: 0;
-  font-family: "Verdana";
+  font-family: sans-serif;
   background-color: white;
   color: black;
 }
 
 .section {
   padding: 100px 0;
-  text-align: center;
 }
 
 .bg-card{

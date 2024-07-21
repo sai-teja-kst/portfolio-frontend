@@ -12,11 +12,12 @@ const Skills = () => {
     <div id="skills" className="section">
       <Container className='d-flex justify-content-center align-items-center'>
         <Row>
-          <Col> 
+          <Col>
+            <h1 className='text-danger mb-3'>My Skills</h1>
             <CardGroup style={{ width: '50rem' }}>
               <Card>
                 <Card.Body>
-                  <Card.Img as={Buildings} className="m-3" style={{ width: '10rem', height: '5rem' }} />
+                  <Card.Img as={Buildings} className='mb-3' style={{ width: '5rem', height: '5rem' }} />
                   <Card.Title><strong className='text-danger'>IoT & IIoT</strong></Card.Title>
                   <Card.Text>
                     Industrial IoT to automate the flows.
@@ -27,7 +28,7 @@ const Skills = () => {
               </Card>
               <Card>
                 <Card.Body>
-                <Card.Img as={Cloud} className="m-3" style={{ width: '10rem', height: '5rem' }} />
+                <Card.Img as={Cloud} className="mb-3" style={{ width: '5rem', height: '5rem' }} />
                   <Card.Title><strong className='text-danger'>Cloud Environment</strong></Card.Title>
                   <Card.Text>
                     AWS Cloud Services
@@ -40,7 +41,7 @@ const Skills = () => {
             <CardGroup style={{ width: '50rem' }}>
             <Card>
                 <Card.Body>
-                <Card.Img as={CodeSlash} className="m-3" style={{ width: '10rem', height: '5rem' }} />
+                <Card.Img as={CodeSlash} className="mb-3" style={{ width: '5rem', height: '5rem' }} />
                   <Card.Title><strong className='text-danger'>Frontend</strong></Card.Title>
                   <Card.Text>
                     Web sites development.
@@ -51,7 +52,7 @@ const Skills = () => {
               </Card>
               <Card>
                 <Card.Body>
-                <Card.Img as={DatabaseFillGear} className="m-3" style={{ width: '10rem', height: '5rem' }} />
+                <Card.Img as={DatabaseFillGear} className="mb-3" style={{ width: '5rem', height: '5rem' }} />
                   <Card.Title><strong className='text-danger'>Backend</strong></Card.Title>
                   <Card.Text>
                     Programming Skills
