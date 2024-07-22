@@ -1,13 +1,12 @@
 import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 
 const NavigationBar = () => {
   
   return (
-    <Navbar expand="lg" fixed='top' className='bg-body-tertiary shadow-sm'>
-      <Container fluid>
-        <Navbar.Brand href="/" className='text-danger'>Portfolio</Navbar.Brand>
+    <Navbar expand="md" fixed='top' className='bg-body-secondary shadow-sm p-2'>
+      <Navbar.Brand href="/" className='text-danger'>Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
         <Nav className='ml-auto'>
@@ -24,8 +23,7 @@ const NavigationBar = () => {
             <Link to="contact" smooth={true} duration={10}>Contact</Link>
           </Nav.Link>
         </Nav>
-        </Navbar.Collapse>
-      </Container>
+      </Navbar.Collapse>
     </Navbar>   
   );
 };

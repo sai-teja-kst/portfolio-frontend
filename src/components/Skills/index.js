@@ -10,11 +10,11 @@ import './index.css';
 const Skills = () => {
   return (
     <div id="skills" className="section">
-      <Container className='d-flex justify-content-center align-items-center'>
+      <Container className='d-flex justify-content-center align-items-center text-center'>
         <Row>
           <Col>
-            <h1 className='text-danger mb-3'>My Skills</h1>
-            <CardGroup style={{ width: '50rem' }}>
+            <h1 className='text-danger text-start mb-3'>My Skills</h1>
+            <CardGroup >
               <Card>
                 <Card.Body>
                   <Card.Img as={Buildings} className='mb-3' style={{ width: '5rem', height: '5rem' }} />
@@ -38,7 +38,7 @@ const Skills = () => {
                 </Card.Body>
               </Card>
             </CardGroup>
-            <CardGroup style={{ width: '50rem' }}>
+            <CardGroup>
             <Card>
                 <Card.Body>
                 <Card.Img as={CodeSlash} className="mb-3" style={{ width: '5rem', height: '5rem' }} />

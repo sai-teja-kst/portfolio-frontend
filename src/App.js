@@ -10,8 +10,7 @@ import { Container } from 'react-bootstrap';
 const App = () => {
 
   return (
-      <div className='bg-app'>
-        <Container>
+        <Container className='d-flex flex-column justify-content-center align-items-center'>
             <NavigationBar />
             <Home />
             <About />
@@ -19,7 +18,6 @@ const App = () => {
             <Contact />
             <FloatingButton />
         </Container>
-      </div>
   );
 };
 
