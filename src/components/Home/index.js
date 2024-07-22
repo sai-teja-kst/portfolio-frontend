@@ -21,7 +21,7 @@ const Home = () => {
                 }}
                 sequence={['This is Sai Teja', 1500, 'I am Software Developer', 1500, 'Welcome to my Portfolio...']}
                 repeat={0}
-                speed={50}
+                speed={200}
                 wrap="span"
               />
             </h1>  

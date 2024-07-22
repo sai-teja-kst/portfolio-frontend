@@ -1,0 +1,14 @@
+.projects-card{
+    border:0.1px solid grey;
+    border-radius: 10px;
+    width: 75%;
+}
+
+.nav-link {
+    color: black !important;
+  }
+  
+.nav-link.active {
+    color: red !important;
+}
+  

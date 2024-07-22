@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import FloatingButton from './components/FloatingBtn';
 import { Container } from 'react-bootstrap';
+import Projects from './components/Projects';
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
             <Home />
             <About />
             <Skills />
+            <Projects/>
             <Contact />
             <FloatingButton />
         </Container>
