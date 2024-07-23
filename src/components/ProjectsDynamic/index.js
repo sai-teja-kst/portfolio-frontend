@@ -6,9 +6,9 @@ const ProjectsDynamic = () => {
         <Row>
             <Col className="p-1">
             <CardGroup>
-                <Card style={{ width: '50%', height: '75vh' }}>
+                <Card style={{ width: '50%', height:'100%' }}>
                     <Card.Body>
-                        <Card.Img variant="top" alt="vr-page" className="card-image" src="./VRpage.png" />
+                        <Card.Img variant="top" alt="vr-page" className="card-image" src="./VRPage.png" />
                         <Card.Title className="mt-1 text-danger">VR Product Page<HeadsetVr className="m-2"/></Card.Title>
                         <Card.Subtitle className="mb-2">Static Responsive Website</Card.Subtitle>
                             <Card.Text>
@@ -34,7 +34,7 @@ const ProjectsDynamic = () => {
                         </Card.Body>
                         <Card.Footer className="text-danger"><Play/>11-Jun-2021</Card.Footer>
                 </Card>
-                <Card style={{ width: '50%', height: '75vh' }}>
+                <Card style={{ width: '50%', height:'100%' }}>
                     <Card.Body>
                         <Card.Img variant="top" alt="flybuy-img" className="card-image" src="./FlyBuy.png"/>
                         <Card.Title className="mt-1 text-danger">FlyBuy E-commerce<Cart className="m-2"/></Card.Title>

@@ -8,7 +8,7 @@ const ProjectsStatic = () => {
             <CardGroup>
                 <Card style={{ width: '50%', height:'100%'}}>
                     <Card.Body>
-                        <Card.Img variant="top" alt="vr-page" className="card-image" src="./VRpage.png" />
+                        <Card.Img variant="top" alt="vr-page" className="card-image" src="./VRPage.png" />
                         <Card.Title className="mt-1 text-danger">VR Product Page<HeadsetVr className="m-2"/></Card.Title>
                         <Card.Subtitle className="mb-2">Static Responsive Website</Card.Subtitle>
                             <Card.Text>
