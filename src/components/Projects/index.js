@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fade, Nav, Row, Tab } from 'react-bootstrap';
+import { Fade, Nav, Row, Tab, Col} from 'react-bootstrap';
 import './index.css';
 import ProjectsStatic from '../ProjectsStatic';
 import ProjectsDynamic from '../ProjectsDynamic';
@@ -29,11 +29,13 @@ const Projects = () => {
         <Row>
           <Tab.Content>
             <Tab.Pane eventKey="static">
-              <Fade in={true}>
-                <div>
-                  <ProjectsStatic />
-                </div>
-              </Fade>
+              <Col>
+                <Fade in={true} timeout={500}>
+                  <div>
+                    <ProjectsStatic />
+                  </div>
+                </Fade>
+              </Col>
             </Tab.Pane>
             <Tab.Pane eventKey="dynamic">
               <Fade in={true} timeout={500}>
