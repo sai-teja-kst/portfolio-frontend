@@ -1,7 +1,7 @@
 .projects-card{
-    border:0.1px solid grey;
-    border-radius: 10px;
     width: 75%;
+    height: 75%;
+    text-decoration: none;
 }
 
 .nav-link {
@@ -11,4 +11,8 @@
 .nav-link.active {
     color: red !important;
 }
-  
+
+.card-image{
+    border-radius: 5px;
+    height:60%;
+}

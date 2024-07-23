@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 const NavigationBar = () => {
   return (
-    <Navbar expand="md" fixed="top" className="bg-body-secondary shadow-sm p-2">
+    <Navbar expand="md" fixed="top" className="bg-body-secondary shadow-sm p-2 vw-75">
       <Navbar.Brand href="/" className="text-danger">Sai Teja's Portfolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
