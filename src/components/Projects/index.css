@@ -1,6 +1,6 @@
 .projects-card{
-    width: 75%;
-    height: 75%;
+    width: 60%;
+    height:60%;
     text-decoration: none;
 }
 
@@ -13,6 +13,6 @@
 }
 
 .card-image{
-    border-radius: 5px;
-    height:60%;
+    height: 50%;
+    width:100%;
 }

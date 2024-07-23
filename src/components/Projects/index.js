@@ -1,9 +1,10 @@
 import React from 'react';
-import { Fade, Nav, Row, Tab, Col} from 'react-bootstrap';
+import { Fade, Nav, Row, Tab, Col, CardGroup} from 'react-bootstrap';
 import './index.css';
 import ProjectsStatic from '../ProjectsStatic';
 import ProjectsDynamic from '../ProjectsDynamic';
-import ProjectsReact from '../ProjectsReact';
+import P1NxtTrendz from '../P1NxtTrendz';
+import P2PasswdManager from '../P2PasswdManager';
 
 const Projects = () => {
 
@@ -46,9 +47,12 @@ const Projects = () => {
             </Tab.Pane>
             <Tab.Pane eventKey="react">
               <Fade in={true} timeout={500}>
-                <div>
-                  <ProjectsReact/>
-                </div>
+                <Col>
+                  <CardGroup>
+                    <P1NxtTrendz/>
+                    <P2PasswdManager/>
+                  </CardGroup>
+                </Col>
               </Fade>
             </Tab.Pane>
           </Tab.Content>
