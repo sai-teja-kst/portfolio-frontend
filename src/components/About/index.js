@@ -44,7 +44,7 @@ const items = [{
 
 const About = () => {
   return (
-    <div id="about" className="vw-75 vh-100 border-0">
+    <div id="about" className="vw-75 border-0 section">
       <h1 className='text-danger'>About Me</h1>
       <Col>
       <Chrono

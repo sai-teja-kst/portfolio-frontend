@@ -5,9 +5,9 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-    <Container id="home" className="bg-home">
+    <Container id="home" className="bg-home section">
       <Row>
-        <Col className='d-flex flex-column align-items-center justify-content-center text-center vh-100'>
+        <Col className='d-flex flex-column align-items-center justify-content-center text-center vh-50'>
             <h1 className='mb-4'>
               <span className='text-danger'>Hello,</span>
               <TypeAnimation
