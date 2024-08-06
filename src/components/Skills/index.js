@@ -5,8 +5,6 @@ import { Cloud } from 'react-bootstrap-icons';
 import { CodeSlash } from 'react-bootstrap-icons';
 import { DatabaseFillGear } from 'react-bootstrap-icons';
 
-import './index.css';
-
 const Skills = () => {
   return (
     <div id="skills" className="section">

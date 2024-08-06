@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NavigationBar = () => {
   return (
-    <Navbar expand="md" fixed="sticky" className="bg-dark rounded-pill shadow-sm p-2 vw-75 mt-2">
+    <Navbar expand="md" fixed="top" className="bg-dark shadow-sm p-2 vw-75">
       <Navbar.Brand href="/" className="text-danger">Sai Teja's Portfolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">

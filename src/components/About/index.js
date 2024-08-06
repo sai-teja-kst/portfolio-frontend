@@ -1,5 +1,6 @@
 import React from 'react';
 import { Chrono } from "react-chrono";
+import { Col } from 'react-bootstrap';
 
 
 const items = [{
@@ -45,6 +46,7 @@ const About = () => {
   return (
     <div id="about" className="vw-75 border-0">
       <h1 className='text-danger'>About Me</h1>
+      <Col>
       <Chrono
         items={items} 
         mode="HORIZONTAL"
@@ -57,13 +59,11 @@ const About = () => {
         }}
         cardPositionHorizontal="TOP"
         highlightCardsOnHover="true"
-        cardHeight={350}
-        cardWidth={700}
         focusActiveItemOnLoad="true"
-        disableToolbar="true"
+
         mediaSettings={{ align: 'center', fit: 'cover' }}
-        mediaHeight={250}
       />
+      </Col>
     </div>
   );
 };
