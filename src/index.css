@@ -2,19 +2,47 @@ html {
   scroll-behavior: smooth;
 }
 
-.bg-app {
+#root {
   margin: 0;
-  font-family: sans-serif;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
-.section {
+.section{
   padding: 100px 0;
 }
 
 .bg-card{
-  background-color: black;
+  background-color: white;
   border: none;
+  color:black;
+}
+
+*{
+  font-family: "VERDANA";
+}
+
+.span-ele{
   color:white;
+}
+
+.span-ele:hover{
+  color:red;
+}
+
+.card{
+  background-color: black;
+  color:white;
+  transition: 0.5s;
+  border-radius: 0;
+}
+
+.card:hover{
+  background-color: white;
+  color: black;
+  border: 0.2px solid red;
+}
+
+.bg-home{
+  background-image: radial-gradient(rgb(74, 2, 2), rgb(49, 0, 0) 10%,rgb(0, 0, 0)80%);
 }

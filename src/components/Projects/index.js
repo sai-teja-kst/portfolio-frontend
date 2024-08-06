@@ -6,20 +6,26 @@ import ProjectsInfoCard from '../ProjectsInfoCard';
 
 const Projects = () => {
   return (
-    <div id="projects" className="section projects-card">
+    <div id="projects" className="section projects-card p-2 mb-4">
       <h1 className='text-danger text-start'>My Projects</h1>
       <Tab.Container id="projects" defaultActiveKey="static">
-        <div className='d-flex flex-row justify-content-start align-item-start p-3'>
+        <div className='d-flex text-light flex-row justify-content-start align-item-start p-3'>
           <Row>
             <Nav variant="underline">
               <Nav.Item>
-                <Nav.Link eventKey="static">Static</Nav.Link>
+                <Nav.Link eventKey="static">
+                  <span className='text-light' id="span-ele">Static</span>
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="dynamic">Dynamic</Nav.Link>
+                <Nav.Link eventKey="dynamic">
+                  <span className='text-light'>Dynamic</span>
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="react">React</Nav.Link>
+                <Nav.Link eventKey="react">
+                <span className='text-light'>React</span>
+                </Nav.Link>
               </Nav.Item>
             </Nav>
           </Row>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Chrono } from "react-chrono";
-import './index.css';
+
 
 const items = [{
   title: "2020",
@@ -10,7 +10,7 @@ const items = [{
     type: "IMAGE",
     source: {
       url: "./graduation.jpg",
-      height: "200px",
+      height: "250px",
       width:"150px"
     }
   }
@@ -22,7 +22,7 @@ const items = [{
     type: "IMAGE",
     source: {
       url: "./G2C.jpg",
-      height: "200px",
+      height: "250px",
       width:"150px"
     }
   }
@@ -34,7 +34,7 @@ const items = [{
     type: "IMAGE",
     source: {
       url: "./Onward.jpg",
-      height: "200px",
+      height: "250px",
       width:"150px"
     }
   }
@@ -43,20 +43,26 @@ const items = [{
 
 const About = () => {
   return (
-    <div id="about" className="section about-card p-3 shadow">
+    <div id="about" className="vw-75 border-0">
       <h1 className='text-danger'>About Me</h1>
       <Chrono
         items={items} 
-        mode="VERTICAL_ALTERNATING"
-        theme=
-          {{ primary: 'red', 
-             secondary: "black", 
-             cardBgColor: 'white', 
-             titleColor: 'black', 
-             titleColorActive: 'white'
-          }}
-          scrollable={{ scrollbar: false }}
-          mediaSettings={{ align: 'center', fit: 'contain' }}
+        mode="HORIZONTAL"
+        theme={{
+          primary: 'red',
+          secondary: 'white',
+          cardBgColor: 'radial-gradient(circle,pink,red);',
+          titleColor: 'white',
+          titleColorActive: 'red',
+        }}
+        cardPositionHorizontal="TOP"
+        highlightCardsOnHover="true"
+        cardHeight={350}
+        cardWidth={700}
+        focusActiveItemOnLoad="true"
+        disableToolbar="true"
+        mediaSettings={{ align: 'center', fit: 'cover' }}
+        mediaHeight={250}
       />
     </div>
   );

@@ -8,9 +8,9 @@ import ThemeProvider from 'react-bootstrap/ThemeProvider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ThemeProvider dir="rtl">
+  <ThemeProvider dir="rtl" >
       <React.StrictMode>
-        <App/>
+          <App/>
       </React.StrictMode>
   </ThemeProvider>
 );

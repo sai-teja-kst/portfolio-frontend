@@ -1,11 +1,11 @@
 .projects-card{
-    width: 100%;
+    width: 75%;
     height:100%;
     text-decoration: none;
 }
 
 .nav-link {
-    color: black !important;
+    color: white !important;
   }
   
 .nav-link.active {

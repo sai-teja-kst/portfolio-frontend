@@ -1,19 +1,17 @@
 import React from 'react';
-import { Button, Row, Col, Nav } from 'react-bootstrap';
+import { Button, Row, Col, Nav,Container } from 'react-bootstrap';
 import { TypeAnimation } from 'react-type-animation';
 import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-    <div id="home" className="section">
+    <Container id="home" className="bg-home">
       <Row>
-        <Col sm={12} lg={6} className='d-flex flex-column align-items-center justify-content-center text-center vh-100'>
-            <h1>
+        <Col className='d-flex flex-column align-items-center justify-content-center text-center vh-100'>
+            <h1 className='mb-4'>
               <span className='text-danger'>Hello,</span>
               <TypeAnimation
                 style={{
-                  height: '20rem',
-                  width: '20rem',
                   display: 'block',
                   wordBreak: 'no-break',
                   textAlign: 'center',
@@ -25,9 +23,9 @@ const Home = () => {
                 wrap="span"
               />
             </h1>  
-              <Button variant='danger' title="about">
+              <Button variant='danger' title="projects">
                 <Nav.Link>
-                  <Link to="contact" smooth={true} duration={10}>Contact Me</Link>
+                  <Link to="projects" smooth={true} duration={10}>My Works</Link>
                 </Nav.Link>
               </Button>
         </Col>
@@ -37,7 +35,7 @@ const Home = () => {
         </Col>
         */}
       </Row>
-    </div>
+    </Container>
   );
 };
 
