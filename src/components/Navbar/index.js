@@ -11,12 +11,12 @@ const NavigationBar = () => {
       <Navbar.Collapse id="navbarScroll">
         <Nav className="ml-auto">
           <Nav.Item>
-            <Nav.Link as={Link} to="home" smooth={true} duration={250} activeStyle="nav-link-custom" >
+            <Nav.Link as={Link} to="home" smooth={true} duration={250}>
               <span className="span-ele">Home</span>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link as={Link} to="about" smooth={true} duration={250} className="nav-link-custom">
+            <Nav.Link as={Link} to="about" smooth={true} duration={250}>
             <span className="span-ele">About</span>
             </Nav.Link>
           </Nav.Item>
@@ -26,12 +26,12 @@ const NavigationBar = () => {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link as={Link} to="projects" smooth={true} duration={250} className="nav-link-custom">
+            <Nav.Link as={Link} to="projects" smooth={true} duration={250}>
               <span className="span-ele">Projects</span>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link as={Link} to="contact" smooth={true} duration={250} className="nav-link-custom">
+            <Nav.Link as={Link} to="contact" smooth={true} duration={250}>
               <span className="span-ele">Contact</span>
             </Nav.Link>
           </Nav.Item>

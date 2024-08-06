@@ -44,7 +44,7 @@ const items = [{
 
 const About = () => {
   return (
-    <div id="about" className="vw-75 border-0">
+    <div id="about" className="vw-75 vh-100 border-0">
       <h1 className='text-danger'>About Me</h1>
       <Col>
       <Chrono
@@ -53,11 +53,15 @@ const About = () => {
         theme={{
           primary: 'red',
           secondary: 'white',
-          cardBgColor: 'radial-gradient(circle,pink,red);',
+          cardBgColor: 'radial-gradient(circle,pink,red)',
           titleColor: 'white',
           titleColorActive: 'red',
         }}
+        style={{height:"50%", width:"50%"}}
         mediaSettings={{ align: 'center', fit: 'contain' }}
+        cardWidth={450}
+        cardHeight={300}
+        contentDetailsHeight={100}
       />
       </Col>
     </div>
