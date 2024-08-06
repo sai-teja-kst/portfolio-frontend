@@ -57,11 +57,7 @@ const About = () => {
           titleColor: 'white',
           titleColorActive: 'red',
         }}
-        cardPositionHorizontal="TOP"
-        highlightCardsOnHover="true"
-        focusActiveItemOnLoad="true"
-
-        mediaSettings={{ align: 'center', fit: 'cover' }}
+        mediaSettings={{ align: 'center', fit: 'contain' }}
       />
       </Col>
     </div>
