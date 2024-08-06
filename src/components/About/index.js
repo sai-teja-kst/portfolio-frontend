@@ -1,7 +1,7 @@
 import React from 'react';
 import { Chrono } from "react-chrono";
 import { Col } from 'react-bootstrap';
-
+import './index.css';
 
 const items = [{
   title: "2020",
@@ -44,11 +44,11 @@ const items = [{
 
 const About = () => {
   return (
-    <div id="about" className="vw-75 border-0 section">
+    <div id="about" className="vw-75 border-0 about-card section">
       <h1 className='text-danger'>About Me</h1>
       <Col>
       <Chrono
-        items={items} 
+        items={items}
         mode="HORIZONTAL"
         theme={{
           primary: 'red',
@@ -57,12 +57,13 @@ const About = () => {
           titleColor: 'white',
           titleColorActive: 'red',
         }}
-        style={{height:"50%", width:"50%"}}
-        mediaSettings={{ align: 'center', fit: 'contain' }}
-        cardWidth={450}
-        cardHeight={300}
+        style={{ height: "50vh", width: "50vw" }}
+        mediaSettings={{ align: 'center', fit: 'cover' }}
+        cardWidth={"50vw"}
+        cardHeight={"50vh"}
         contentDetailsHeight={100}
       />
+
       </Col>
     </div>
   );

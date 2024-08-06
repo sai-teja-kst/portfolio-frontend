@@ -6,6 +6,13 @@ html {
   margin: 0;
   background-color: black;
   color: white;
+  width: 100vw;
+}
+
+@media only screen and (max-width: 768px) {
+  #root {
+    width: 100%;
+  }
 }
 
 .section{
@@ -28,3 +35,14 @@ html {
   background-image: radial-gradient(rgb(74, 2, 2), rgb(49, 0, 0) 10%,rgb(0, 0, 0)80%);
 }
 
+.contact-card{
+  width: 25vw;
+  height:10vh;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .contact-card {
+    width: 50vw;
+  }
+}

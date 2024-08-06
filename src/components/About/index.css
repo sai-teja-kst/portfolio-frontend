@@ -1,4 +1,9 @@
-.about-card{
-    height:10%;
-    width:10%;
+.about-card {
+    width: 50vw;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-card {
+        width: 90%;
+    }
 }
