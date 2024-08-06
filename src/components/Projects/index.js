@@ -7,6 +7,7 @@ import ProjectsInfoCard from '../ProjectsInfoCard';
 const Projects = () => {
   return (
     <div id="projects" className="section projects-card p-5 mb-2">
+      <Col sm={12}>
       <h1 className='text-danger text-start'>My Projects</h1>
       <Tab.Container id="projects" defaultActiveKey="static">
         <div className='d-flex text-light flex-row justify-content-start align-item-start p-3'>
@@ -14,7 +15,7 @@ const Projects = () => {
             <Nav variant="underline">
               <Nav.Item>
                 <Nav.Link eventKey="static">
-                  <span className='text-light' id="span-ele">Static</span>
+                  <span className='text-light'>Static</span>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
@@ -144,6 +145,7 @@ const Projects = () => {
           </Tab.Content>
         </Row>
       </Tab.Container>
+      </Col>
       
     </div>
   );
