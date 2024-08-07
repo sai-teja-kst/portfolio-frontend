@@ -8,7 +8,6 @@ import FloatingButton from './components/FloatingBtn';
 import { Container } from 'react-bootstrap';
 import Projects from './components/Projects';
 import RestrictInspect from './components/RestrictInspect';
-import Certs from './components/Certs';
 
 const App = () => {
 
@@ -20,7 +19,6 @@ const App = () => {
             <About />
             <Skills />
             <Projects/>
-            <Certs/>
             <Contact />
             <FloatingButton />
         </Container>
