@@ -130,11 +130,11 @@ const Projects = () => {
                         cardTitle="Nxt Trendz E-Commerce Website"
                         cardSubtitle="MERN Stack"
                         cardText="Developed a dynamic e-commerce application using HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. The application features product listings, a shopping cart, user authentication, and a responsive design, providing a smooth and efficient online shopping experience."
-                        sourceCodeLink="https://github.com/sai-teja-kst/auth-2.git"
-                        websiteLink="https://kstauth2.ccbp.tech"
+                        sourceCodeLink="https://github.com/sai-teja-kst/nxttrendz.git"
+                        websiteLink="https://kstejaecom.ccbp.tech/"
                         footerText="03-May-2024"
                         footerIcon={<Play />}
-                        techTools="Technologies & Tools : MongoDB, Node.JS, Express JS, React JS"
+                        techTools="Technologies & Tools : MongoDB, Node, Express, React"
                         cardIcon={<Cart2 className='m-2'/>}
                     />
                     </CardGroup>

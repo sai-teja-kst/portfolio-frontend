@@ -8,7 +8,7 @@ const Contact = () => {
     <div id="contact" className="d-flex flex-column align-items-center justify-content-center p-2">
       <Row>
         <Col sm={12}>
-          <Card className='bg-danger contact-card mb-2'>
+          <Card className='rounded mb-2'>
               <p className='m-3'><Envelope />   karrisaiteja32@gmail.com</p>
               <p className='m-3'><Linkedin />   saitejakarri</p>
               <p className='m-3'><GeoAlt />   Andhra Pradesh, India</p>

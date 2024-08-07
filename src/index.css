@@ -4,7 +4,7 @@ html {
 
 #root {
   margin: 0;
-  background-color: black;
+  background-image:linear-gradient(to top,rgb(164, 3, 3), rgb(88, 2, 2) 10%,rgb(0, 0, 0)80% );
   color: white;
   width: 100vw;
 }
@@ -20,7 +20,7 @@ html {
 }
 
 *{
-  font-family: "VERDANA";
+  font-family: "Arial";
 }
 
 .span-ele{

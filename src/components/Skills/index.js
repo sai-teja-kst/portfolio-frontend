@@ -13,7 +13,7 @@ const Skills = () => {
         <Row>
           <Col>
             <h1 className='text-danger text-start mb-3'>My Skills</h1>
-            <CardGroup >
+            <CardGroup>
               <Card>
                 <Card.Body>
                   <Card.Img as={Buildings} className='mb-3' style={{ width: '5rem', height: '5rem' }} />
