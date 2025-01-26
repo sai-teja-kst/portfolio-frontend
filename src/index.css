@@ -1,13 +1,32 @@
 html {
   scroll-behavior: smooth;
+  background-color: black;
 }
 
 #root {
   margin: 0;
-  background-image:linear-gradient(to top,rgb(164, 3, 3), rgb(88, 2, 2) 10%,rgb(0, 0, 0)80% );
+  background-color: black;
   color: white;
   width: 100vw;
 }
+
+.navbar-custom {
+  width: "50%";
+  margin-left: "25%";
+  background-color: grey; 
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  position:fixed;
+  bottom: 10px;
+  padding: 10px;
+  z-index: 1;
+  margin-bottom: 10px;
+}
+
 
 @media only screen and (max-width: 768px) {
   #root {
@@ -16,30 +35,33 @@ html {
 }
 
 .section{
-  padding: 100px 0;
+  padding: 100px 0 0;
 }
 
-*{
+* {
   font-family: "Arial";
 }
 
-.span-ele{
-  color:white;
+.span-ele {
+  color: white;
 }
 
-.span-ele:hover{
-  color:red;
+.span-ele:hover {
+  color: red;
 }
 
-.bg-home{
-  background-image: radial-gradient(rgb(74, 2, 2), rgb(49, 0, 0) 10%,rgb(0, 0, 0)80%);
+.bg-home {
+  background-image: radial-gradient(
+    rgb(74, 2, 2),
+    rgb(49, 0, 0) 10%,
+    rgb(0, 0, 0) 80%
+  );
 }
 
-.contact-card{
+.contact-card {
   width: 25vw;
-  height:10vh;
+  height: 10vh;
 }
-
 
 @media only screen and (max-width: 768px) {
   .contact-card {

@@ -1,18 +1,33 @@
-import React from 'react';
-import { Row, Col, Card } from 'react-bootstrap';
-import { Envelope, Linkedin,GeoAlt } from 'react-bootstrap-icons';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useState } from "react";
+import { Row, Col, Button } from "react-bootstrap";
+import { Envelope, Linkedin, GeoAlt } from "react-bootstrap-icons";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Contact = () => {
+  const [activetab, setActiveTab] = useState("mail");
+
   return (
-    <div id="contact" className="d-flex flex-column align-items-center justify-content-center p-2">
+    <div id="contact" className="section mb-5 text-center">
       <Row>
-        <Col sm={12}>
-          <Card className='rounded mb-2'>
-              <p className='m-3'><Envelope />   karrisaiteja32@gmail.com</p>
-              <p className='m-3'><Linkedin />   saitejakarri</p>
-              <p className='m-3'><GeoAlt />   Andhra Pradesh, India</p>
-          </Card>
+        <Col xs={12} lg={6}>
+          <h1 className="d-flex text-danger">Contact</h1>
+
+          <div className="d-flex flex-row gap-2">
+            <Button className="border rounded-pill" variant="outline-danger" onClick={()=>setActiveTab("mail")}>
+              <Envelope size={20} />
+            </Button>
+            <Button className="border rounded-pill" variant="outline-danger" onClick={()=>setActiveTab("linkedin")}>
+              <Linkedin size={20} />
+            </Button>
+            <Button className="border rounded-pill" variant="outline-danger" onClick={()=>setActiveTab("address")}>
+              <GeoAlt size={20} />
+            </Button>
+          </div>
+          <div style={{width: "18rem", marginTop: "20px"}}>
+            {activetab === "mail" && <strong>karrisaiteja32@gmail.com</strong>}
+            {activetab === "linkedin" && <strong>saitejakarri</strong>}
+            {activetab === "address" && <strong>visakhapatnam</strong>}
+          </div>
         </Col>
       </Row>
     </div>

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button, Row, Col, Nav,Container } from 'react-bootstrap';
-import { TypeAnimation } from 'react-type-animation';
+import { Button, Row, Col,Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
+import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
   return (
@@ -24,9 +24,7 @@ const Home = () => {
               />
             </h1>  
               <Button variant='danger' title="projects">
-                <Nav.Link>
-                  <Link to="projects" smooth={true} duration={10}>My Works</Link>
-                </Nav.Link>
+                <Link to="projects">my works</Link>
               </Button>
         </Col>
         {/*

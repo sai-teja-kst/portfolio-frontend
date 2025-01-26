@@ -6,7 +6,7 @@ import ProjectsInfoCard from '../ProjectsInfoCard';
 
 const Projects = () => {
   return (
-    <div id="projects" className="section projects-card p-5 mb-2">
+    <div id="projects" className="section projects-card mb-2">
       <h1 className='text-danger text-start'>My Projects</h1>
       <Tab.Container id="projects" defaultActiveKey="static">
         <div className='d-flex text-light flex-row justify-content-start align-item-start p-3'>
